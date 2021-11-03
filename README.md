@@ -1,6 +1,6 @@
 # Cr4ackme
 
-This is a source code for 
+This is a source code for [This shoulbe availabe soon. Stay tuned.]
 
 When making this crakcme, my lovely Windows Defender detects it as Trojan.
 
