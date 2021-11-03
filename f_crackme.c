@@ -33,7 +33,6 @@ int main() {
   printf("Type your username: ");
   scanf("%20s", name);
   twoOptions = checkUsername(name);
-  printf("Option is %d\n", twoOptions);
 
   if (twoOptions == 0) {
     strcpy(rightPasswd, "@fsociety");
