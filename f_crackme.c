@@ -13,7 +13,7 @@ int checkUsername(char c[]) {
     return 1;
   }
   else {
-    exit(0);
+    return 2;
   }
 }
 
@@ -26,19 +26,19 @@ void message() {
 int main() {
   char name[20];
   char password[30];
-  int twoOptions;
+  int usernameType;
   char rightPasswd[30];
 
   message();
   printf("Type your username: ");
   scanf("%20s", name);
-  twoOptions = checkUsername(name);
+  usernameType = checkUsername(name);
 
-  if (twoOptions == 0) {
+  if (usernameType == 0) {
     strcpy(rightPasswd, "@fsociety");
     strcat(name, rightPasswd);
     strcpy(rightPasswd, name);
-  } else if (twoOptions == 1) {
+  } else if (usernameType == 1) {
     strcpy(rightPasswd, "Mr.");
     strcat(rightPasswd, name);
   } else {
