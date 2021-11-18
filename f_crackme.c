@@ -42,7 +42,7 @@ int main() {
     strcpy(rightPasswd, "Mr.");
     strcat(rightPasswd, name);
   } else {
-   exit(0) 
+   exit(0);
   }
 
   printf("Type your password: ");
